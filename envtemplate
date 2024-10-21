@@ -1,0 +1,47 @@
+# AWS Credentials
+AWS_ACCESS_KEY_ID=  # Your AWS access key ID
+AWS_SECRET_ACCESS_KEY=  # Your AWS secret access key
+AWS_REGION=  # The AWS region where your resources will be deployed
+
+# AWS Infrastructure Details
+VPC_ID=  # The ID of the VPC
+SUBNET_IDS=  # The IDs of the subnets
+KEY_PAIR_NAME=  # The name of your key pair (without the .pem extension)
+SNS_TOPIC_ARN=  # The ARN of your SNS topic
+CLOUDTRAIL_BUCKET=  # The name of the S3 bucket for CloudTrail
+CONFIG_BUCKET=  # The name of the S3 bucket used for AWS Config
+
+# IP Addresses
+YOUR_IP_ADDRESS=  # Your actual IP address for security group rules
+
+# Relay Configuration
+RELAY_NICKNAME=  # The nickname for your relay
+CONTACT_EMAIL=  # The contact email for your relay
+RELAY_FAMILY=  # The relay family, fetched from the Tor folder after setup
+
+# VPC Peering
+PEER_VPC_ID=  # The ID of the peer VPC
+
+# CloudTrail Configuration
+CLOUDTRAIL_NAME=  # The name of your CloudTrail
+CLOUDTRAIL_MULTI_REGION=  # Whether CloudTrail is multi-region
+CLOUDTRAIL_KMS_KEY=  # The KMS key for CloudTrail
+CLOUDTRAIL_KMS_KEY_ALIAS=  # The alias for the KMS key
+CLOUDTRAIL_LOG_VALIDATION=  # Whether log validation is enabled
+
+# VNC Password/User/SSH Port Change
+VNC_PASSWORD=  # The VNC password, fetched during setup
+VNC_USER=  # The VNC user, fetched during setup
+SSH_PORT=  # The SSH port, fetched during setup
+
+# CloudTrail Log Group
+CLOUDTRAIL_LOG_GROUP=  # The log group for CloudTrail
+
+# AWS Service Config Role
+AWSCONFIGARN=  # The ARN for the AWS Config service role
+
+# AMI ID
+AMI_ID=  # Add your AMI ID here
+
+# Instance Type
+INSTANCE_TYPE=  # Add your desired instance type here (e.g., t3.micro)
